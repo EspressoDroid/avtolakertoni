@@ -1,0 +1,11 @@
+GITHUB PAGES — AVTOLAKER TONI
+
+1. Extract this ZIP.
+2. In your existing GitHub repository, upload the extracted CONTENTS directly to the root. index.html must be at the top level, not inside a new folder. Upload styles.css, site.js, favicon.ico, and the entire images folder too.
+3. Commit the uploaded files.
+4. Repository Settings > Pages > Build and deployment: choose Deploy from a branch, select your branch (usually main), select / (root), then Save.
+5. Wait until the Pages deployment in Actions succeeds, then refresh the published site.
+
+These files are the built static website, not the React project source. You do not need npm or a server to host this version. Relative file links support both a repository URL and a custom domain. The existing CNAME file should be kept if you use a custom domain.
+
+Includes all current page content and all source images/video, combined original CSS including the mobile hero, and working mobile navigation. Based on published source commit 7a823913b3e6905c9d4921ada2ef13c2725e31ed (v26).
